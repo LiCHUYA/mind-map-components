@@ -1,6 +1,6 @@
 // sfc-script:D:\study_project\mind-map-components\src\vue\MyComponent.vue?type=script
 var MyComponent_default = {
-  name: "ViewDist",
+  name: "AdvanceMindMap",
   props: {
     useIframe: {
       type: Boolean,
@@ -19,7 +19,7 @@ var MyComponent_default = {
 
 // sfc-template:D:\study_project\mind-map-components\src\vue\MyComponent.vue?type=template
 import { openBlock as _openBlock, createElementBlock as _createElementBlock } from "vue";
-var _hoisted_1 = { class: "view-dist-container" };
+var _hoisted_1 = { class: "advance-mind-map-container" };
 var _hoisted_2 = ["src"];
 var _hoisted_3 = ["innerHTML"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -31,7 +31,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       style: { "width": "100%", "height": "100%", "border": "none", "display": "block" }
     }, null, 8, _hoisted_2)) : (_openBlock(), _createElementBlock("div", {
       key: 1,
-      class: "dist-content",
+      class: "advance-mind-map-content",
       innerHTML: $props.content
     }, null, 8, _hoisted_3))
   ]);

@@ -1,6 +1,6 @@
 {
   "name": "advance-mind-map",
-  "version": "1.0.14",
+  "version": "1.0.17",
   "description": "Vue and React Mind Map",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -23,8 +23,7 @@
   "bugs": {
     "url": "https://github.com/advance-mind-map/advance-mind-map.git/issues"
   },
-  "scripts": {
-    "build": "node build.js",
+  "scripts": { "build": "node build.js",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {

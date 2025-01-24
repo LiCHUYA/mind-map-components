@@ -22,7 +22,7 @@ const ViewDist = ({
   content = ''
 }) => {
   return (
-    <div style={containerStyle}>
+    <div style={containerStyle} className="advance-mind-map-container">
       {useIframe ? (
         <iframe
           src={url}
@@ -32,6 +32,7 @@ const ViewDist = ({
       ) : (
         <div 
           style={contentStyle}
+          className="advance-mind-map-content"
           dangerouslySetInnerHTML={{ __html: content }}
         />
       )}

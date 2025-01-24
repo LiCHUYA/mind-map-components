@@ -12,6 +12,9 @@ async function build() {
     format: 'esm',
     plugins: [vue()],
     external: ['vue'],
+    loader: {
+      '.css': 'css'
+    }
   })
 
   // Build React component  
@@ -22,7 +25,8 @@ async function build() {
     format: 'esm',
     external: ['react', 'react-dom'],
     loader: {
-      '.jsx': 'jsx'
+      '.jsx': 'jsx',
+      '.css': 'css'
     }
   })
 
@@ -34,6 +38,9 @@ async function build() {
     format: 'cjs',
     platform: 'node',
     plugins: [vue()],
+    loader: {
+      '.css': 'css'
+    }
   })
 
   // Build ESM bundle
@@ -44,6 +51,9 @@ async function build() {
     format: 'esm',
     platform: 'node',
     plugins: [vue()],
+    loader: {
+      '.css': 'css'
+    }
   })
 }
 

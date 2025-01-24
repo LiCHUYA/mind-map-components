@@ -1,18 +1,18 @@
 <template>
-  <div class="view-dist-container">
+  <div class="advance-mind-map-container">
     <iframe 
       v-if="useIframe"
       :src="url"
       frameborder="0"
       style="width: 100%; height: 100%; border: none; display: block;"
     ></iframe>
-    <div v-else class="dist-content" v-html="content"></div>
+    <div v-else class="advance-mind-map-content" v-html="content"></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ViewDist',
+  name: 'AdvanceMindMap',
   props: {
     // 是否使用iframe展示
     useIframe: {
@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style>
-.view-dist-container {
+.advance-mind-map-container {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -42,8 +42,8 @@ export default {
   flex-direction: column;
 }
 
-.view-dist-container iframe,
-.view-dist-container .dist-content {
+.advance-mind-map-container iframe,
+.advance-mind-map-container .advance-mind-map-content {
   flex: 1;
   width: 100%;
   height: 100%;

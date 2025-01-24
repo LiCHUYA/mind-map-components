@@ -20,13 +20,15 @@ var ViewDist = ({
   content = ""
 }) => {
   return /* @__PURE__ */ React.createElement("div", {
-    style: containerStyle
+    style: containerStyle,
+    className: "advance-mind-map-container"
   }, useIframe ? /* @__PURE__ */ React.createElement("iframe", {
     src: url,
     frameBorder: "0",
     style: contentStyle
   }) : /* @__PURE__ */ React.createElement("div", {
     style: contentStyle,
+    className: "advance-mind-map-content",
     dangerouslySetInnerHTML: { __html: content }
   }));
 };
