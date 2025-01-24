@@ -1,0 +1,41 @@
+{
+  "name": "advance-mind-map",
+  "version": "1.0.14",
+  "description": "Vue and React Mind Map",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "react",
+    "mind-map",
+    "view-dist"
+  ],
+  "author": "advance-mind-map",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiCHUYA/vue3-mindmap?tab=readme-ov-file"
+  },
+  "homepage": "https://github.com/LiCHUYA/vue3-mindmap?tab=readme-ov-file",
+  "bugs": {
+    "url": "https://github.com/advance-mind-map/advance-mind-map.git/issues"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.0",
+    "esbuild-plugin-vue3": "^0.3.2",
+    "fs-extra": "^10.1.0",
+    "vue": "^3.0.0"
+  }
+}

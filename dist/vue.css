@@ -1,0 +1,16 @@
+/* sfc-style:D:\study_project\mind-map-components\src\vue\MyComponent.vue?type=style&index=0 */
+.view-dist-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.view-dist-container iframe,
+.view-dist-container .dist-content {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
