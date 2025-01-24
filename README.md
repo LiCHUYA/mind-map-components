@@ -18,9 +18,7 @@ import { AdvanceVue3MindMap } from 'advance-mind-map'
 </script>
 
 <template>
-  <AdvanceVue3MindMap 
-    url="https://lichuya.github.io/vue3-mindmap/"
-  />
+  <AdvanceVue3MindMap />
 </template>
 ```
 
