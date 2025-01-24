@@ -1,6 +1,6 @@
 {
   "name": "advance-mind-map",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Vue and React Mind Map",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -23,7 +23,8 @@
   "bugs": {
     "url": "https://github.com/advance-mind-map/advance-mind-map.git/issues"
   },
-  "scripts": { "build": "node build.js",
+  "scripts": {
+    "build": "node build.js",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
@@ -33,7 +34,9 @@
   },
   "devDependencies": {
     "esbuild": "^0.14.0",
+    "esbuild-plugin-inline-css": "^0.0.1",
     "esbuild-plugin-vue3": "^0.3.2",
+    "esbuild-style-plugin": "^1.6.3",
     "fs-extra": "^10.1.0",
     "vue": "^3.0.0"
   }
