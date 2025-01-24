@@ -32,31 +32,6 @@ function App() {
   )
 }
 ```
-
-### 自定义配置
-```vue
-<template>
-  <AdvanceVue3MindMap 
-    :useIframe="true"
-    relativePath="./custom/path/to/view-dist"
-  />
-</template>
-```
-
-```jsx
-<AdvanceReactMindMap 
-  useIframe={true}
-  relativePath="./custom/path/to/view-dist"
-/>
-```
-
-### Props
-| 属性 | 说明 | 类型 | 默认值 |
-|------|------|------|--------|
-| useIframe | 是否使用iframe展示 | boolean | true |
-| relativePath | 视图文件路径 | string | '/node_modules/advance-mind-map/dist/view-dist' |
-| content | 直接传入的HTML内容 | string | '' |
-
 jsmind、Mind-elixir、my-mind、blink-mind、remind、vue3-mindmap、ZMindMap、mindmaptree...
 
 这些开源的思维导图也都不错，各有各的特点，但是它们也都有一定缺点，比如停止更新、界面美观度一般、功能比较少、依赖某个框架等等。
